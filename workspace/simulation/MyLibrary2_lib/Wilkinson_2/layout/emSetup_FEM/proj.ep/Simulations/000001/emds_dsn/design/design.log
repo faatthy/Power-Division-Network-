@@ -1,0 +1,326 @@
+mode = forced
+CONFIGURATION VARIABLES WITH NON-DEFAULT VALUES:
+
+                                        Actual             Default
+------------------------------------------------------------------
+  FEM_MESHER_SHOW_PROGRESS                 OFF                    
+  
+  
+FEM engine                : 370.000 2019-07-17
+FEM solver                : 1.2.0
+AFS                       : 3.1.1
+
+ 
+Machine                   : DESKTOP-Q0SP7E5
+Maximum number of threads : Automatic
+Maximum number of solvers : 1
+Date                      : Mon May  8 10:11:04 2023
+Design                    : C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design
+
+--------------------------------------------------------
+         Pass 1
+--------------------------------------------------------
+
+
+*** MESH ***
+
+
+FEM Mesher: 2.0.3
+
+
+    
+Automatic initial target mesh size: 1.67e+01 mm
+   
+PROGRESS 33
+PROGRESS 34
+PROGRESS 36
+PROGRESS 38
+PROGRESS 40
+PROGRESS 42
+PROGRESS 44
+PROGRESS 46
+PROGRESS 48
+PROGRESS 50
+PROGRESS 52
+PROGRESS 54
+PROGRESS 56
+PROGRESS 58
+PROGRESS 60
+PROGRESS 62
+PROGRESS 64
+PROGRESS 66
+PROGRESS 73
+PROGRESS 81
+PROGRESS 88
+PROGRESS 90
+Generated 3512 Tetrahedra, 7175 Surfaces, 705 Points
+
+    CPU time: 00:00:00.8    Elapsed time: 00:00:01.0
+
+*** SOLVE ***
+
+PROGRESS 26
+PROGRESS 27
+PROGRESS 29
+PROGRESS 31
+PROGRESS 33
+PROGRESS 36
+PROGRESS 38
+PROGRESS 40
+PROGRESS 43
+PROGRESS 45
+PROGRESS 47
+PROGRESS 48
+PROGRESS 51
+PROGRESS 52
+PROGRESS 54
+PROGRESS 55
+PROGRESS 59
+PROGRESS 62
+PROGRESS 66
+PROGRESS 70
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+
+ 1. Frequency: 6 GHz      Unknowns:   23088
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:06.4    Elapsed time: 00:00:01.3    Memory: 199.047 Mbyte 
+    Delta S:  not available           [Target:  0.020000]
+Generated dataset
+Generated dataset
+
+--------------------------------------------------------
+         Pass 2
+--------------------------------------------------------
+
+
+*** ADAPT ***
+
+Generated 4107 Tetrahedra, 8399 Surfaces, 828 Points
+
+    CPU time: 00:00:00.5    Elapsed time: 00:00:00.5
+
+*** SOLVE ***
+
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 30
+PROGRESS 31
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 37
+PROGRESS 39
+PROGRESS 41
+PROGRESS 42
+PROGRESS 44
+PROGRESS 45
+PROGRESS 46
+PROGRESS 48
+PROGRESS 53
+PROGRESS 54
+PROGRESS 55
+PROGRESS 59
+PROGRESS 61
+PROGRESS 64
+PROGRESS 67
+PROGRESS 72
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+
+ 1. Frequency: 6 GHz      Unknowns:   27040
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:08.3    Elapsed time: 00:00:01.4    Memory: 225.648 Mbyte 
+    Delta S:    0.029386           [Target:  0.020000]
+Generated dataset
+Generated dataset
+
+--------------------------------------------------------
+         Pass 3
+--------------------------------------------------------
+
+
+*** ADAPT ***
+
+Generated 4771 Tetrahedra, 9735 Surfaces, 954 Points
+
+    CPU time: 00:00:00.4    Elapsed time: 00:00:00.4
+
+*** SOLVE ***
+
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 31
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 36
+PROGRESS 38
+PROGRESS 40
+PROGRESS 41
+PROGRESS 43
+PROGRESS 45
+PROGRESS 49
+PROGRESS 51
+PROGRESS 54
+PROGRESS 55
+PROGRESS 57
+PROGRESS 61
+PROGRESS 63
+PROGRESS 65
+PROGRESS 67
+PROGRESS 70
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+
+ 1. Frequency: 6 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:08.6    Elapsed time: 00:00:01.3    Memory: 249.652 Mbyte 
+    Delta S:    0.037391           [Target:  0.020000]
+Generated dataset
+Generated dataset
+
+--------------------------------------------------------
+         Pass 4
+--------------------------------------------------------
+
+
+*** ADAPT ***
+
+Generated 5601 Tetrahedra, 11413 Surfaces, 1115 Points
+
+    CPU time: 00:00:00.4    Elapsed time: 00:00:00.4
+
+*** SOLVE ***
+
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 31
+PROGRESS 32
+PROGRESS 34
+PROGRESS 36
+PROGRESS 37
+PROGRESS 39
+PROGRESS 40
+PROGRESS 41
+PROGRESS 42
+PROGRESS 43
+PROGRESS 45
+PROGRESS 46
+PROGRESS 47
+PROGRESS 49
+PROGRESS 50
+PROGRESS 53
+PROGRESS 56
+PROGRESS 59
+PROGRESS 61
+PROGRESS 65
+PROGRESS 66
+PROGRESS 67
+PROGRESS 71
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+
+ 1. Frequency: 6 GHz      Unknowns:   36682
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:12.7    Elapsed time: 00:00:01.9    Memory: 285.430 Mbyte 
+    Delta S:    0.013518           [Target:  0.020000]
+Generated dataset
+Generated dataset
+
+--------------------------------------------------------
+         Computing solution
+--------------------------------------------------------
+
+
+*** SOLVE ***
+
+
+ 1. Frequency: 6 GHz      Unknowns:   31308
+    Solver:  reuse
+    CPU time: 00:00:08.6    Elapsed time: 00:00:01.3    Memory: 249.652 Mbyte 
+
+ 2. Frequency: 1 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:09.5    Elapsed time: 00:00:02.5    Memory: 251.707 Mbyte 
+
+ 3. Frequency: 2.66667 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.4    Elapsed time: 00:00:00.7    Memory: 252.734 Mbyte 
+
+ 4. Frequency: 4.33333 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.1    Elapsed time: 00:00:00.7    Memory: 253.516 Mbyte 
+
+ 5. Frequency: 5.16667 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.8    Elapsed time: 00:00:01.5    Memory: 254.230 Mbyte 
+
+ 6. Frequency: 4.75 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.3    Elapsed time: 00:00:00.9    Memory: 254.723 Mbyte 
+
+ 7. Frequency: 1.83333 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.9    Elapsed time: 00:00:01.2    Memory: 254.723 Mbyte 
+
+ 8. Frequency: 1.41667 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.5    Elapsed time: 00:00:01.3    Memory: 254.875 Mbyte 
+
+ 9. Frequency: 3.5 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.5    Elapsed time: 00:00:01.4    Memory: 254.875 Mbyte 
+
+10. Frequency: 3.08333 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.5    Elapsed time: 00:00:01.2    Memory: 254.938 Mbyte 
+
+11. Frequency: 3.29167 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.1    Elapsed time: 00:00:00.9    Memory: 254.984 Mbyte 
+
+12. Frequency: 3.91667 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.5    Elapsed time: 00:00:01.1    Memory: 255.199 Mbyte 
+
+13. Frequency: 2.25 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:04.3    Elapsed time: 00:00:01.0    Memory: 255.199 Mbyte 
+
+14. Frequency: 4.54167 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:04.6    Elapsed time: 00:00:01.0    Memory: 255.426 Mbyte 
+
+15. Frequency: 5.58333 GHz      Unknowns:   31308
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:05.2    Elapsed time: 00:00:01.6    Memory: 255.426 Mbyte 
+
+------------------------------------------------
+DISTRIBUTION SUMMARY:
+master 0    on DESKTOP-Q0SP7E5 
+solver 1    on DESKTOP-Q0SP7E5:  #freq:14    
+------------------------------------------------
+------------------------------------------------
+Total Elapsed Time = 0:00:45
+------------------------------------------------
+
+
+Simulation results can be reused
+

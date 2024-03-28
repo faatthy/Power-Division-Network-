@@ -1,0 +1,499 @@
+[x_emds.py:1463] 2023-05-08 10:11:00,408   SocketListener           DEBUG   : initLogger
+[x_emds.py:1779] 2023-05-08 10:11:00,410   SocketListener           DEBUG   : master node's HOST: 127.0.0.1     PORT: 54993
+[x_emds.py:1791] 2023-05-08 10:11:00,410   SocketListener           DEBUG   : SockListener started
+[x_emds.py:1327] 2023-05-08 10:11:04,262   SocketListener           DEBUG   : C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\emds_mesher.exe --awd=C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\ --logs=emds_dsn\design --Ioxml=emds_dsn\design\options.xml --Iacis=emds_dsn\design\design.sat --Icalc=Run0001\project.input --Iicp=emds_dsn\design\design.icp --Iivs=emds_dsn\design\design.ivs --Ovol=emds_dsn\design\design.vol --Oovm=emds_dsn\design\level1\design.ovm --Omovm=emds_dsn\design\level1\design.movm --Ores=emds_dsn\design\design_comb_result.sat --Ofin=emds_dsn\design\design_final_comb.sat --Ocout=emds_dsn\design\design_cout.out --license-file=emds_dsn/design/.lic.ctx --license-token=MTY4MzUzMzQ2MDI0NzoxNjgzNTMzNDY0MjYxOuH+lL7Ijx6qR6Hb/NZI+9ZNB6QX
+[x_emds.py:1308] 2023-05-08 10:11:07,686   SocketListener           DEBUG   : C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\emds_solve3d64.exe C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design level1 level1 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54993 --license-file=.lic.ctx --license-token=MTY4MzUzMzQ2MDI0NzoxNjgzNTMzNDY3Njg1OuDivykrwWkHroVGvnXS9zqPnuoZ
+[x_emds.py:1327] 2023-05-08 10:11:09,953   SocketListener           DEBUG   : C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\fem_xadapt.exe --awd=C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\ --logs=emds_dsn\design --Ioxml=emds_dsn\design\options.xml --Iovm=emds_dsn\design\level1\design.ovm --Imovm=emds_dsn\design\level1\design.movm --Iref=emds_dsn\design\level1\design.ref --Ires=emds_dsn\design\design_comb_result.sat --Icalc=Run0001\project.input --Oovm=emds_dsn\design\level2\design.ovm --Omovm=emds_dsn\design\level2\design.movm --Otim=emds_dsn\design\level2\design_adapt.timing
+[x_emds.py:1308] 2023-05-08 10:11:12,552   SocketListener           DEBUG   : C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\emds_solve3d64.exe C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design level2 level2 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54993 --license-file=.lic.ctx --license-token=MTY4MzUzMzQ2MDI0NzoxNjgzNTMzNDcyNTUyOhDgiRq1vGT+kTsR5vr8Vnozse7B
+[x_emds.py:1327] 2023-05-08 10:11:14,773   SocketListener           DEBUG   : C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\fem_xadapt.exe --awd=C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\ --logs=emds_dsn\design --Ioxml=emds_dsn\design\options.xml --Iovm=emds_dsn\design\level2\design.ovm --Imovm=emds_dsn\design\level2\design.movm --Iref=emds_dsn\design\level2\design.ref --Ires=emds_dsn\design\design_comb_result.sat --Icalc=Run0001\project.input --Oovm=emds_dsn\design\level3\design.ovm --Omovm=emds_dsn\design\level3\design.movm --Otim=emds_dsn\design\level3\design_adapt.timing
+[x_emds.py:1308] 2023-05-08 10:11:15,901   SocketListener           DEBUG   : C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\emds_solve3d64.exe C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design level3 level3 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54993 --license-file=.lic.ctx --license-token=MTY4MzUzMzQ2MDI0NzoxNjgzNTMzNDc1OTAyOttCleZWtFC29QeeMNoBFYtp2qpa
+[x_emds.py:1327] 2023-05-08 10:11:18,186   SocketListener           DEBUG   : C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\fem_xadapt.exe --awd=C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\ --logs=emds_dsn\design --Ioxml=emds_dsn\design\options.xml --Iovm=emds_dsn\design\level3\design.ovm --Imovm=emds_dsn\design\level3\design.movm --Iref=emds_dsn\design\level3\design.ref --Ires=emds_dsn\design\design_comb_result.sat --Icalc=Run0001\project.input --Oovm=emds_dsn\design\level4\design.ovm --Omovm=emds_dsn\design\level4\design.movm --Otim=emds_dsn\design\level4\design_adapt.timing
+[x_emds.py:1308] 2023-05-08 10:11:19,335   SocketListener           DEBUG   : C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\emds_solve3d64.exe C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design level4 level4 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54993 --license-file=.lic.ctx --license-token=MTY4MzUzMzQ2MDI0NzoxNjgzNTMzNDc5MzM1OkwQLcPg1K8vSy1GsYUHdBH81dAz
+[x_emds.py:1637] 2023-05-08 10:11:22,749   SocketListener           DEBUG   : await_solvers_subscribe ...
+[x_emds.py:1672] 2023-05-08 10:11:22,749   SocketListener           DEBUG   : launchIdleSolver: C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design --use_x_mode=1 --use_x_socket=1 --x_modetype=solve --x_cloud_emu_mode=0 --x_workerId=1 --socket_host=127.0.0.1 --socket_port=54993 --license-file=.lic.ctx --license-token=MTY4MzUzMzQ2MDI0NzoxNjgzNTMzNDgyNzQ4OkGMWyP8Ng5dTVAqOmE7RzMo9dsZ
+[x_emds.py:1347] 2023-05-08 10:11:22,750   SocketListener           DEBUG   : C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\emds_solve3d64.exe C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design --use_x_mode=1 --use_x_socket=1 --x_modetype=solve --x_cloud_emu_mode=0 --x_workerId=1 --socket_host=127.0.0.1 --socket_port=54993 --license-file=.lic.ctx --license-token=MTY4MzUzMzQ2MDI0NzoxNjgzNTMzNDgyNzQ4OkGMWyP8Ng5dTVAqOmE7RzMo9dsZ
+[x_emds.py:1463] 2023-05-08 10:11:24,362   CL_127.0.0.1:55059       DEBUG   : initLogger
+[x_emds.py:1875] 2023-05-08 10:11:24,364   CL_127.0.0.1:55059       DEBUG   : Connected: 127.0.0.1:55059
+[x_emds.py:2261] 2023-05-08 10:11:24,375   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "hostname": "DESKTOP-Q0SP7E5", "method": "x_subscribe"}
+[x_emds.py:2454] 2023-05-08 10:11:24,375   CL_127.0.0.1:55059       DEBUG   : x_subscribe: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:24,377   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:24,378   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:1463] 2023-05-08 10:11:24,380   CL_127.0.0.1:55062       DEBUG   : initLogger
+[x_emds.py:1875] 2023-05-08 10:11:24,380   CL_127.0.0.1:55062       DEBUG   : Connected: 127.0.0.1:55062
+[x_emds.py:2261] 2023-05-08 10:11:24,381   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:24,381   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:24,632   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:24,632   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:1308] 2023-05-08 10:11:24,779   SocketListener           DEBUG   : C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\emds_solve3d64.exe C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design level3 level3 --use_x_mode=1 --use_x_socket=1 --x_modetype=freqgen --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54993 --license-file=.lic.ctx --license-token=MTY4MzUzMzQ2MDI0NzoxNjgzNTMzNDg0NzgwOgxsvbVqPKYHiCBI1fj65ToCBbeJ
+[x_emds.py:2261] 2023-05-08 10:11:24,898   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:24,898   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:25,165   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:1463] 2023-05-08 10:11:25,165   CL_127.0.0.1:55067       DEBUG   : initLogger
+[x_emds.py:2416] 2023-05-08 10:11:25,167   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:1875] 2023-05-08 10:11:25,167   CL_127.0.0.1:55067       DEBUG   : Connected: 127.0.0.1:55067
+[x_emds.py:2261] 2023-05-08 10:11:25,178   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "hostname": "DESKTOP-Q0SP7E5", "method": "x_subscribe"}
+[x_emds.py:2454] 2023-05-08 10:11:25,178   CL_127.0.0.1:55067       DEBUG   : x_subscribe: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:25,180   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_determine_setup_data"}
+[x_emds.py:2284] 2023-05-08 10:11:25,180   CL_127.0.0.1:55067       DEBUG   : fg_determine_setup_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:25,181   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:25,181   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:1463] 2023-05-08 10:11:25,183   CL_127.0.0.1:55070       DEBUG   : initLogger
+[x_emds.py:1875] 2023-05-08 10:11:25,183   CL_127.0.0.1:55070       DEBUG   : Connected: 127.0.0.1:55070
+[x_emds.py:1949] 2023-05-08 10:11:25,184   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'fg_determine_setup_data', 'args': {'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level3', 'Icalc': '/../../Run0001/project.input', 'Iovm': '/level3/design.ovm'}, 'jobId': '0', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:25,184   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:25,184   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:25,428   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:25,428   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "fg_determine_setup_data", "args": {"Igeo": "/../../Run0001/geometry.input", "lvldir": "level3", "Icalc": "/../../Run0001/project.input", "Iovm": "/level3/design.ovm"}, "jobId": "0", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:25,691   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:25,691   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:25,894   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:25,895   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:26,111   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "data": "{\n    \"sql_comps_pins\": \"INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P1','0','0','0','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P2','1','1','1','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P3','2','2','2','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P4','3','3','3','current source','-1','-1','1','0','Zpi');\\n\",\n    \"hasWaveguidePorts\": \"0\",\n    \"allWaveguidePortsAreInternal\": \"1\"\n}\n", "method": "report_setup_data", "jobId": "0"}
+[x_emds.py:2291] 2023-05-08 10:11:26,111   CL_127.0.0.1:55059       DEBUG   : report_setup_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:26,112   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:26,112   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:26,194   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:26,196   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:26,196   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_setup_data"}
+[x_emds.py:2298] 2023-05-08 10:11:26,197   CL_127.0.0.1:55067       DEBUG   : fg_get_setup_data: replying {"status": "ok", "data": {"sql_comps_pins": "INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P1','0','0','0','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P2','1','1','1','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P3','2','2','2','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P4','3','3','3','current source','-1','-1','1','0','Zpi');\n", "allWaveguidePortsAreInternal": "1", "hasWaveguidePorts": "0"}}
+[x_emds.py:2261] 2023-05-08 10:11:26,214   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "maxF": "6000000000.000000000000000", "method": "fg_determine_cutoff_intervals", "minF": "1000000000.000000000000000"}
+[x_emds.py:2340] 2023-05-08 10:11:26,217   CL_127.0.0.1:55067       DEBUG   : fg_determine_cutoff_intervals: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:26,219   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:26,220   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2008] 2023-05-08 10:11:26,223   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'determine_cutoff_intervals', 'args': {'Icalc': '/../../Run0001/project.input', 'minF': u'1000000000.000000000000000', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input', 'maxF': u'6000000000.000000000000000'}, 'jobId': '1', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:26,367   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:26,367   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "determine_cutoff_intervals", "args": {"Icalc": "/../../Run0001/project.input", "minF": "1000000000.000000000000000", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input", "maxF": "6000000000.000000000000000"}, "jobId": "1", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:26,368   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "data": "", "method": "report_cutoff_intervals", "jobId": "1"}
+[x_emds.py:2347] 2023-05-08 10:11:26,368   CL_127.0.0.1:55059       DEBUG   : report_cutoff_intervals: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:26,368   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:26,368   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:26,631   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:26,631   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:26,694   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:26,694   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:26,724   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:26,724   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:26,726   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_cutoff_intervals"}
+[x_emds.py:2354] 2023-05-08 10:11:26,726   CL_127.0.0.1:55067       DEBUG   : fg_get_cutoff_intervals: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:26,730   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "1000000000.000000000000000", "iterative_order": "2"}, {"Fsolve": "2666666666.666666984558105", "iterative_order": "2"}, {"Fsolve": "4333333333.333333969116211", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:26,732   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:26,733   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:26,733   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:26,733   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_1000000000.0', 'iterative_order': u'2', 'Fsolve': u'1000000000.000000000000000', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '2', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2079] 2023-05-08 10:11:26,733   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_2666666666.67', 'iterative_order': u'2', 'Fsolve': u'2666666666.666666984558105', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '3', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2079] 2023-05-08 10:11:26,733   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_4333333333.33', 'iterative_order': u'2', 'Fsolve': u'4333333333.333333969116211', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '4', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:26,895   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:26,897   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_1000000000.0", "iterative_order": "2", "Fsolve": "1000000000.000000000000000", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "2", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:27,242   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:27,242   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:27,249   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:27,249   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:27,398   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:27,398   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:27,756   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:27,757   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:27,759   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:27,759   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:27,943   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "9.515625000000000", "e_time": "2.477202700000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "264142848.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "1000000000.000000000000000", "iterative_converged": "1", "has_blg": "0", "subdir": "f_1000000000.0"}, "method": "x_solve_report_data", "jobId": "2"}
+[x_emds.py:2423] 2023-05-08 10:11:27,944   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:27,944   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:27,946   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_2666666666.67", "iterative_order": "2", "Fsolve": "2666666666.666666984558105", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "3", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:28,210   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:28,210   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:28,270   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:28,272   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "2", "data": {"Fsolve": "1000000000.000000000000000", "iterative_converged": "1", "has_blg": "0", "subdir": "f_1000000000.0"}, "metadata": {"cpu_time": "9.515625000000000", "e_time": "2.477202700000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "264142848.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:28,289   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["2"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:28,289   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:28,303   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:28,305   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:28,618   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.406250000000000", "e_time": "0.673478000000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "265011200.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "2666666666.666666984558105", "iterative_converged": "1", "has_blg": "0", "subdir": "f_2666666666.67"}, "method": "x_solve_report_data", "jobId": "3"}
+[x_emds.py:2423] 2023-05-08 10:11:28,618   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:28,619   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:28,619   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_4333333333.33", "iterative_order": "2", "Fsolve": "4333333333.333333969116211", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "4", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:28,821   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:28,822   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "3", "data": {"Fsolve": "2666666666.666666984558105", "iterative_converged": "1", "has_blg": "0", "subdir": "f_2666666666.67"}, "metadata": {"cpu_time": "5.406250000000000", "e_time": "0.673478000000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "265011200.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:28,828   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["3"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:28,828   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:28,835   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:28,836   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:28,914   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:28,915   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:29,335   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.109375000000000", "e_time": "0.721473400000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "265830400.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "4333333333.333333969116211", "iterative_converged": "1", "has_blg": "0", "subdir": "f_4333333333.33"}, "method": "x_solve_report_data", "jobId": "4"}
+[x_emds.py:2423] 2023-05-08 10:11:29,338   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:29,338   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:29,338   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:29,348   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:29,348   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "4", "data": {"Fsolve": "4333333333.333333969116211", "iterative_converged": "1", "has_blg": "0", "subdir": "f_4333333333.33"}, "metadata": {"cpu_time": "5.109375000000000", "e_time": "0.721473400000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "265830400.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:29,355   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["4"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:29,355   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:29,361   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:29,361   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:29,598   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:29,599   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:29,724   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:29,724   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:29,865   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2261] 2023-05-08 10:11:29,865   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2416] 2023-05-08 10:11:29,865   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2393] 2023-05-08 10:11:29,867   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:29,867   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:29,868   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:29,868   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:29,868   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:29,868   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:29,868   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:29,891   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "5166666666.666666984558105", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:29,892   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:29,892   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:29,892   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:29,894   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_5166666666.67', 'iterative_order': u'2', 'Fsolve': u'5166666666.666666984558105', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '5', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:30,130   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:30,131   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_5166666666.67", "iterative_order": "2", "Fsolve": "5166666666.666666984558105", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "5", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:30,397   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:30,398   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:30,398   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:30,400   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:30,428   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:30,430   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:30,803   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.828125000000000", "e_time": "1.466651900000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "266579968.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "5166666666.666666984558105", "iterative_converged": "1", "has_blg": "0", "subdir": "f_5166666666.67"}, "method": "x_solve_report_data", "jobId": "5"}
+[x_emds.py:2423] 2023-05-08 10:11:30,805   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:30,805   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:30,806   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:30,914   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:30,914   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "5", "data": {"Fsolve": "5166666666.666666984558105", "iterative_converged": "1", "has_blg": "0", "subdir": "f_5166666666.67"}, "metadata": {"cpu_time": "5.828125000000000", "e_time": "1.466651900000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "266579968.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:30,926   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["5"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:30,926   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:30,933   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:30,933   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:30,934   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:30,934   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:30,934   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:30,934   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:30,959   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "4750000000.000000000000000", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:30,960   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:30,960   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:30,960   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:30,963   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_4750000000.0', 'iterative_order': u'2', 'Fsolve': u'4750000000.000000000000000', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '6', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:31,069   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:31,069   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_4750000000.0", "iterative_order": "2", "Fsolve": "4750000000.000000000000000", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "6", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:31,239   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:31,240   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:31,477   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:31,479   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:31,480   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:31,480   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:31,694   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.250000000000000", "e_time": "0.889543000000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267096064.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "4750000000.000000000000000", "iterative_converged": "1", "has_blg": "0", "subdir": "f_4750000000.0"}, "method": "x_solve_report_data", "jobId": "6"}
+[x_emds.py:2423] 2023-05-08 10:11:31,694   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:31,696   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:31,696   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:31,944   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:31,946   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:31,960   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:31,960   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:31,990   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:31,992   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "6", "data": {"Fsolve": "4750000000.000000000000000", "iterative_converged": "1", "has_blg": "0", "subdir": "f_4750000000.0"}, "metadata": {"cpu_time": "5.250000000000000", "e_time": "0.889543000000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267096064.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:32,002   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["6"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:32,002   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:32,009   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:32,010   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:32,012   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:32,012   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:32,013   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:32,013   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:32,046   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "1833333333.333333492279053", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:32,046   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:32,046   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:32,046   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:32,049   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_1833333333.33', 'iterative_order': u'2', 'Fsolve': u'1833333333.333333492279053', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '7', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:32,223   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:32,223   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_1833333333.33", "iterative_order": "2", "Fsolve": "1833333333.333333492279053", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "7", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:32,552   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:32,553   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:32,555   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:32,555   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:32,756   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:32,757   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:32,848   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.890625000000000", "e_time": "1.154774400000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267096064.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "1833333333.333333492279053", "iterative_converged": "1", "has_blg": "0", "subdir": "f_1833333333.33"}, "method": "x_solve_report_data", "jobId": "7"}
+[x_emds.py:2423] 2023-05-08 10:11:32,848   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:32,849   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:32,849   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:33,068   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:33,069   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "7", "data": {"Fsolve": "1833333333.333333492279053", "iterative_converged": "1", "has_blg": "0", "subdir": "f_1833333333.33"}, "metadata": {"cpu_time": "5.890625000000000", "e_time": "1.154774400000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267096064.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:33,075   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["7"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:33,075   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:33,081   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:33,082   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:33,082   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:33,082   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:33,082   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:33,082   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:33,111   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "1416666666.666666746139526", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:33,112   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:33,114   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:33,114   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:33,115   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:33,115   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2079] 2023-05-08 10:11:33,115   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_1416666666.67', 'iterative_order': u'2', 'Fsolve': u'1416666666.666666746139526', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '8', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:33,365   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:33,367   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_1416666666.67", "iterative_order": "2", "Fsolve": "1416666666.666666746139526", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "8", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:33,460   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:33,460   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:33,615   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:33,615   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:33,617   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:33,617   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:34,121   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.515625000000000", "e_time": "1.273372800000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267255808.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "1416666666.666666746139526", "iterative_converged": "1", "has_blg": "0", "subdir": "f_1416666666.67"}, "method": "x_solve_report_data", "jobId": "8"}
+[x_emds.py:2423] 2023-05-08 10:11:34,122   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:34,124   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:34,124   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:34,131   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:34,131   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "8", "data": {"Fsolve": "1416666666.666666746139526", "iterative_converged": "1", "has_blg": "0", "subdir": "f_1416666666.67"}, "metadata": {"cpu_time": "5.515625000000000", "e_time": "1.273372800000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267255808.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:34,138   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["8"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:34,138   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:34,144   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:34,144   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:34,272   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:34,273   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:34,381   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:34,381   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:34,632   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:34,632   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:34,648   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:34,648   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:34,648   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:34,648   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:34,648   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:34,648   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:34,650   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:34,650   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:34,680   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "3500000000.000000476837158", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:34,680   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:34,680   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:34,680   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:34,681   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_3500000000.0', 'iterative_order': u'2', 'Fsolve': u'3500000000.000000476837158', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '9', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:34,895   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:34,897   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_3500000000.0", "iterative_order": "2", "Fsolve": "3500000000.000000476837158", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "9", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:34,974   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:34,976   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:35,194   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:35,194   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:35,196   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:35,196   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:35,471   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.468750000000000", "e_time": "1.350605700000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267255808.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "3500000000.000000476837158", "iterative_converged": "1", "has_blg": "0", "subdir": "f_3500000000.0"}, "method": "x_solve_report_data", "jobId": "9"}
+[x_emds.py:2423] 2023-05-08 10:11:35,473   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:35,473   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:35,473   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:35,711   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:35,711   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "9", "data": {"Fsolve": "3500000000.000000476837158", "iterative_converged": "1", "has_blg": "0", "subdir": "f_3500000000.0"}, "metadata": {"cpu_time": "5.468750000000000", "e_time": "1.350605700000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267255808.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:35,724   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["9"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:35,724   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:35,726   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:35,727   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:35,730   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:35,730   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:35,732   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:35,732   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:35,732   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:35,732   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:35,765   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "3083333333.333333969116211", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:35,766   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:35,766   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:35,766   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:35,767   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_3083333333.33', 'iterative_order': u'2', 'Fsolve': u'3083333333.333333969116211', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '10', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:35,773   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:35,775   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:35,990   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:35,990   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_3083333333.33", "iterative_order": "2", "Fsolve": "3083333333.333333969116211", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "10", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:36,270   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:36,273   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:36,275   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:36,276   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:36,490   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:36,492   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:36,694   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.453125000000000", "e_time": "1.222600800000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267321344.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "3083333333.333333969116211", "iterative_converged": "1", "has_blg": "0", "subdir": "f_3083333333.33"}, "method": "x_solve_report_data", "jobId": "10"}
+[x_emds.py:2423] 2023-05-08 10:11:36,696   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:36,697   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:36,697   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:36,788   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:36,789   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "10", "data": {"Fsolve": "3083333333.333333969116211", "iterative_converged": "1", "has_blg": "0", "subdir": "f_3083333333.33"}, "metadata": {"cpu_time": "5.453125000000000", "e_time": "1.222600800000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267321344.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:36,802   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["10"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:36,802   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:36,809   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:36,809   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:36,809   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:36,811   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:36,811   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:36,811   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:36,854   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "3291666666.666666984558105", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:36,854   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:36,855   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:36,855   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:36,855   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_3291666666.67', 'iterative_order': u'2', 'Fsolve': u'3291666666.666666984558105', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '11', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:36,960   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:36,960   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_3291666666.67", "iterative_order": "2", "Fsolve": "3291666666.666666984558105", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "11", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:37,289   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:37,289   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:37,368   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:37,368   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:37,369   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:37,371   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:37,601   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.093750000000000", "e_time": "0.906561000000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267370496.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "3291666666.666666984558105", "iterative_converged": "1", "has_blg": "0", "subdir": "f_3291666666.67"}, "method": "x_solve_report_data", "jobId": "11"}
+[x_emds.py:2423] 2023-05-08 10:11:37,602   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:37,605   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:37,605   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:37,871   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:37,871   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:37,887   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:37,887   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "11", "data": {"Fsolve": "3291666666.666666984558105", "iterative_converged": "1", "has_blg": "0", "subdir": "f_3291666666.67"}, "metadata": {"cpu_time": "5.093750000000000", "e_time": "0.906561000000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267370496.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:37,900   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["11"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:37,900   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:37,905   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:37,905   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:37,907   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:37,907   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:37,907   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:37,907   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:37,950   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "3916666666.666666984558105", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:37,950   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:37,950   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:37,950   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:37,953   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_3916666666.67', 'iterative_order': u'2', 'Fsolve': u'3916666666.666666984558105', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '12', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:37,996   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:37,996   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:38,122   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:38,124   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_3916666666.67", "iterative_order": "2", "Fsolve": "3916666666.666666984558105", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "12", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:38,454   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:38,456   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:38,457   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:38,457   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:38,721   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.468750000000000", "e_time": "1.121197700000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267595776.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "3916666666.666666984558105", "iterative_converged": "1", "has_blg": "0", "subdir": "f_3916666666.67"}, "method": "x_solve_report_data", "jobId": "12"}
+[x_emds.py:2423] 2023-05-08 10:11:38,723   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:38,723   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:38,724   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:38,802   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:38,802   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:38,971   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:38,971   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "12", "data": {"Fsolve": "3916666666.666666984558105", "iterative_converged": "1", "has_blg": "0", "subdir": "f_3916666666.67"}, "metadata": {"cpu_time": "5.468750000000000", "e_time": "1.121197700000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267595776.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:38,984   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["12"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:38,986   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:38,987   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:38,987   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:38,990   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:38,992   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:38,992   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:38,992   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:38,993   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:38,993   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:39,032   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "2250000000.000000000000000", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:39,032   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:39,033   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:39,033   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:39,035   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_2250000000.0', 'iterative_order': u'2', 'Fsolve': u'2250000000.000000000000000', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '13', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:39,253   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:39,255   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_2250000000.0", "iterative_order": "2", "Fsolve": "2250000000.000000000000000", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "13", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:39,506   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:39,507   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:39,538   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:39,539   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:39,539   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:39,540   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:39,713   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "4.250000000000000", "e_time": "0.992976900000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267595776.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "2250000000.000000000000000", "iterative_converged": "1", "has_blg": "0", "subdir": "f_2250000000.0"}, "method": "x_solve_report_data", "jobId": "13"}
+[x_emds.py:2423] 2023-05-08 10:11:39,714   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:39,717   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:39,717   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:39,974   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:39,974   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:40,052   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:40,052   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "13", "data": {"Fsolve": "2250000000.000000000000000", "iterative_converged": "1", "has_blg": "0", "subdir": "f_2250000000.0"}, "metadata": {"cpu_time": "4.250000000000000", "e_time": "0.992976900000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267595776.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:40,072   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["13"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:40,072   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:40,085   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:40,085   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:40,086   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:40,088   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:40,088   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:40,088   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:40,197   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "4541666666.666666984558105", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:40,197   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:40,200   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:40,200   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:40,200   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_4541666666.67', 'iterative_order': u'2', 'Fsolve': u'4541666666.666666984558105', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '14', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:40,240   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:40,240   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_4541666666.67", "iterative_order": "2", "Fsolve": "4541666666.666666984558105", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "14", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2261] 2023-05-08 10:11:40,303   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:40,305   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:40,711   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:40,711   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:40,713   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:40,713   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:40,747   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "4.593750000000000", "e_time": "1.031999100000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267833344.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "4541666666.666666984558105", "iterative_converged": "1", "has_blg": "0", "subdir": "f_4541666666.67"}, "method": "x_solve_report_data", "jobId": "14"}
+[x_emds.py:2423] 2023-05-08 10:11:40,749   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:40,750   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:40,750   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:41,009   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2261] 2023-05-08 10:11:41,009   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2416] 2023-05-08 10:11:41,010   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2437] 2023-05-08 10:11:41,012   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:41,227   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:41,227   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "14", "data": {"Fsolve": "4541666666.666666984558105", "iterative_converged": "1", "has_blg": "0", "subdir": "f_4541666666.67"}, "metadata": {"cpu_time": "4.593750000000000", "e_time": "1.031999100000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267833344.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:41,250   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["14"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:41,252   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:41,266   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:41,266   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:41,267   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:41,267   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:41,269   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:41,269   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:41,275   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:41,276   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:41,539   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:41,540   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:41,592   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": [{"Fsolve": "5583333333.333333969116211", "iterative_order": "2"}], "method": "fg_solve_frequencies"}
+[x_emds.py:2370] 2023-05-08 10:11:41,592   CL_127.0.0.1:55067       DEBUG   : fg_solve_frequencies: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:41,594   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:41,594   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2079] 2023-05-08 10:11:41,595   CL_127.0.0.1:55067       DEBUG   : job: {'status': 'created', 'type': 'solve', 'args': {'Icalc': '/../../Run0001/project.input', 'simdir': 'f_5583333333.33', 'iterative_order': u'2', 'Fsolve': u'5583333333.333333969116211', 'lvldir': 'level3', 'Iovm': '/level3/design.ovm', 'Igeo': '/../../Run0001/geometry.input'}, 'jobId': '15', 'processed': 0, 'workerId': -1, 'data': []}
+[x_emds.py:2261] 2023-05-08 10:11:41,808   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2261] 2023-05-08 10:11:41,809   CL_127.0.0.1:55070       DEBUG   : handleData: {"workerId": "0", "method": "x_ping"}
+[x_emds.py:2416] 2023-05-08 10:11:41,809   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "started", "type": "solve", "args": {"Icalc": "/../../Run0001/project.input", "simdir": "f_5583333333.33", "iterative_order": "2", "Fsolve": "5583333333.333333969116211", "lvldir": "level3", "Iovm": "/level3/design.ovm", "Igeo": "/../../Run0001/geometry.input"}, "jobId": "15", "processed": 0, "workerId": "1", "data": []}}
+[x_emds.py:2437] 2023-05-08 10:11:41,811   CL_127.0.0.1:55070       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:42,102   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:42,104   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:42,107   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:42,108   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "0"}
+[x_emds.py:2261] 2023-05-08 10:11:42,377   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "metadata": {"cpu_time": "5.156250000000000", "e_time": "1.630255900000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267833344.000000000000000", "nb_iter": "-1", "solver_type": "1"}, "data": {"Fsolve": "5583333333.333333969116211", "iterative_converged": "1", "has_blg": "0", "subdir": "f_5583333333.33"}, "method": "x_solve_report_data", "jobId": "15"}
+[x_emds.py:2423] 2023-05-08 10:11:42,378   CL_127.0.0.1:55059       DEBUG   : x_solve_report_data: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:42,378   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:42,378   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:42,523   CL_127.0.0.1:55062       DEBUG   : handleData: {"workerId": "1", "method": "x_ping"}
+[x_emds.py:2437] 2023-05-08 10:11:42,525   CL_127.0.0.1:55062       DEBUG   : x_ping: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:42,618   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:42,619   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": [{"jobId": "15", "data": {"Fsolve": "5583333333.333333969116211", "iterative_converged": "1", "has_blg": "0", "subdir": "f_5583333333.33"}, "metadata": {"cpu_time": "5.156250000000000", "e_time": "1.630255900000000", "norm_res": "-1.000000000000000", "lst_success": "1", "nb_unknowns": "31308", "discretization_order": "0", "memory": "267833344.000000000000000", "nb_iter": "-1", "solver_type": "1"}}]}
+[x_emds.py:2261] 2023-05-08 10:11:42,628   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "data": ["15"], "method": "fg_mark_solved_jobs_as_processed"}
+[x_emds.py:2406] 2023-05-08 10:11:42,628   CL_127.0.0.1:55067       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"status": "ok", "data": ""}
+[x_emds.py:2261] 2023-05-08 10:11:42,634   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:42,635   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:42,635   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_run_status"}
+[x_emds.py:2377] 2023-05-08 10:11:42,635   CL_127.0.0.1:55067       DEBUG   : fg_run_status: replying {"status": "ok", "data": "1"}
+[x_emds.py:2261] 2023-05-08 10:11:42,637   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:42,637   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:42,637   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "fg_get_unprocessed_solved_frequencies"}
+[x_emds.py:2393] 2023-05-08 10:11:42,638   CL_127.0.0.1:55067       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"status": "ok", "data": []}
+[x_emds.py:2261] 2023-05-08 10:11:42,743   CL_127.0.0.1:55067       DEBUG   : handleData: {"workerId": "0", "method": "x_unsubscribe"}
+[x_emds.py:2466] 2023-05-08 10:11:42,743   CL_127.0.0.1:55067       DEBUG   : x_unsubscribe: replying {"status": "ok", "data": ""}
+[x_emds.py:1892] 2023-05-08 10:11:42,743   CL_127.0.0.1:55067       DEBUG   : Disconnected[1]: 127.0.0.1:55067
+[x_emds.py:1892] 2023-05-08 10:11:42,744   CL_127.0.0.1:55070       DEBUG   : Disconnected[1]: 127.0.0.1:55070
+[x_emds.py:2261] 2023-05-08 10:11:42,888   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:42,888   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:2261] 2023-05-08 10:11:43,142   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:43,142   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "noop"}}
+[x_emds.py:1815] 2023-05-08 10:11:43,184   SocketListener           DEBUG   : gracefulExit called
+[x_emds.py:2261] 2023-05-08 10:11:43,394   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_solve_poll_for_job"}
+[x_emds.py:2416] 2023-05-08 10:11:43,395   CL_127.0.0.1:55059       DEBUG   : x_solve_poll_for_job: replying {"status": "ok", "data": {"status": "exit"}}
+[x_emds.py:2261] 2023-05-08 10:11:43,395   CL_127.0.0.1:55059       DEBUG   : handleData: {"workerId": "1", "method": "x_unsubscribe"}
+[x_emds.py:2466] 2023-05-08 10:11:43,397   CL_127.0.0.1:55059       DEBUG   : x_unsubscribe: replying {"status": "ok", "data": ""}
+[x_emds.py:1892] 2023-05-08 10:11:43,397   CL_127.0.0.1:55059       DEBUG   : Disconnected[1]: 127.0.0.1:55059
+[x_emds.py:1892] 2023-05-08 10:11:43,398   CL_127.0.0.1:55062       DEBUG   : Disconnected[1]: 127.0.0.1:55062
+[x_emds.py:1828] 2023-05-08 10:11:44,194   SocketListener           DEBUG   : count_zombies: 0/1  attempt:1
+[x_emds.py:232] 2023-05-08 10:11:44,200   SocketListener           DEBUG   : stopSocketServer
+[x_emds.py:1809] 2023-05-08 10:11:44,335   SocketListener           DEBUG   : SocketListener terminating

@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=MyLibrary2_lib:Wilkinson_2:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

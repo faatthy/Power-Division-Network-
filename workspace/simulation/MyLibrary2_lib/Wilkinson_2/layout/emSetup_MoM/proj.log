@@ -1,0 +1,109 @@
+License checkout took 0.071 sec
+License checkout took 0.035 sec
+Momentum MomEngine_64 2020.00.283 (*) built: Jul 17 2019
+Copyright  1992 - 2019 Keysight Technologies
+Simulation started on: Sun May 14 14:08:34 2023
+Simulation Mode: RF
+Substrate valid
+Using the minimal snap distance of 0.0004 mm
+(4 layout resolution points) for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Layout healing changed the layout. The actual
+highest aggregate snap distance was 0.0002 mm.
+Further details have been written to the DRC
+report.
+
+-------------------------------------------------------------------------------
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+Generating mesh at 6 GHz...
+S-parameter simulation
+S-parameter simulation started
+...initializing
+...extracting layout
+
+--- WARNING -------------------------------------------------------------------
+
+Layout is electrically large above 4.06 GHz (space wave radiation)
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+Substrate is electrically large above 9.41 GHz (surface wave radiation)
+RF simulation can be less accurate as it ignores radiation
+Consider:  - lowering the maximum frequency
+           - simulating in MW mode
+
+-------------------------------------------------------------------------------
+...reducing mesh
+Automatic selection: direct dense matrix solver
+Using multi-threading (16 threads)
+Matrix size: 932 (reduced: 716)
+Simulation temperature: 298.15 K
+Adaptive frequency sweep started
+Simulation frequency [1] = 1 GHz
+...loading Green functions
+...creating Basis sections
+...allocating interaction matrix
+...loading quasi-static matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [2] = 6 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   0.0 % of frequency range covered
+Simulation frequency [3] = 4.33333 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [4] = 2.66667 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [5] = 3.77778 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [6] = 3.03704 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [7] = 4.61111 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [8] = 5.30556 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [9] = 1.55556 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [10] = 4.95833 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [11] = 5.76852 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [12] = 2.11111 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [13] = 1.18519 GHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive: 100.0 % of frequency range covered
+S-parameter simulation finished
+Simulation finished on: Sun May 14 14:08:40 2023
+The simulation results have been saved in dataset "Wilkinson_2_MomRF".

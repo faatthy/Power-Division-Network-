@@ -1,0 +1,208 @@
+
+CONFIGURATION VARIABLES WITH NON-DEFAULT VALUES:
+                                        Actual             Default
+  FEM_MESHER_SHOW_PROGRESS                 OFF                    
+  
+  
+FEM engine                : 370.000 2019-07-17
+FEM solver                : 1.2.0
+AFS                       : 3.1.1
+Machine                   : DESKTOP-Q0SP7E5
+Maximum number of threads : Automatic
+Maximum number of solvers : 1
+Date                      : Mon May  8 10:11:04 2023
+Design                    : C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design
+FEM Mesher: 2.0.3
+    
+Automatic initial target mesh size: 1.67e+01 mm
+   
+PROGRESS 33
+PROGRESS 34
+PROGRESS 36
+PROGRESS 38
+PROGRESS 40
+PROGRESS 42
+PROGRESS 44
+PROGRESS 46
+PROGRESS 48
+PROGRESS 50
+PROGRESS 52
+PROGRESS 54
+PROGRESS 56
+PROGRESS 58
+PROGRESS 60
+PROGRESS 62
+PROGRESS 64
+PROGRESS 66
+PROGRESS 73
+PROGRESS 81
+PROGRESS 88
+PROGRESS 90
+ 
+INITIAL MESH
+------------
+ 
+nbPoints     : 705
+nbTetrahedra : 3512
+  
+REFINING
+--------
+                     |              MESHING                |                           SOLVING
+ level    frequency  |  nbTetr  Elapsed time    CPU time   |  nbUnknowns   mem(GB)   Elapsed time    CPU time  Delta(S)             solver  nbIter     normRes            
+---------------------|-------------------------------------|--------------------------------------------------------------------------------------------------
+PROGRESS 26
+PROGRESS 27
+PROGRESS 29
+PROGRESS 31
+PROGRESS 33
+PROGRESS 36
+PROGRESS 38
+PROGRESS 40
+PROGRESS 43
+PROGRESS 45
+PROGRESS 47
+PROGRESS 48
+PROGRESS 51
+PROGRESS 52
+PROGRESS 54
+PROGRESS 55
+PROGRESS 59
+PROGRESS 62
+PROGRESS 66
+PROGRESS 70
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+     1    6.000 GHz  |    3512    00:00:01.0  00:00:00.8   |       23088     0.194     00:00:01.3  00:00:06.4         /               Dm64                                
+Generated dataset
+Generated dataset
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 30
+PROGRESS 31
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 37
+PROGRESS 39
+PROGRESS 41
+PROGRESS 42
+PROGRESS 44
+PROGRESS 45
+PROGRESS 46
+PROGRESS 48
+PROGRESS 53
+PROGRESS 54
+PROGRESS 55
+PROGRESS 59
+PROGRESS 61
+PROGRESS 64
+PROGRESS 67
+PROGRESS 72
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+     2    6.000 GHz  |    4107    00:00:00.5  00:00:00.5   |       27040     0.220     00:00:01.4  00:00:08.3    0.0294 [->0.0200]    Dm64                                
+Generated dataset
+Generated dataset
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 31
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 36
+PROGRESS 38
+PROGRESS 40
+PROGRESS 41
+PROGRESS 43
+PROGRESS 45
+PROGRESS 49
+PROGRESS 51
+PROGRESS 54
+PROGRESS 55
+PROGRESS 57
+PROGRESS 61
+PROGRESS 63
+PROGRESS 65
+PROGRESS 67
+PROGRESS 70
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+     3    6.000 GHz  |    4771    00:00:00.4  00:00:00.4   |       31308     0.244     00:00:01.3  00:00:08.6    0.0374 [->0.0200]    Dm64                                
+Generated dataset
+Generated dataset
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 31
+PROGRESS 32
+PROGRESS 34
+PROGRESS 36
+PROGRESS 37
+PROGRESS 39
+PROGRESS 40
+PROGRESS 41
+PROGRESS 42
+PROGRESS 43
+PROGRESS 45
+PROGRESS 46
+PROGRESS 47
+PROGRESS 49
+PROGRESS 50
+PROGRESS 53
+PROGRESS 56
+PROGRESS 59
+PROGRESS 61
+PROGRESS 65
+PROGRESS 66
+PROGRESS 67
+PROGRESS 71
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+     4    6.000 GHz  |    5601    00:00:00.4  00:00:00.4   |       36682     0.279     00:00:01.9  00:00:12.7    0.0135 [->0.0200]    Dm64                                
+Generated dataset
+Generated dataset
+ 
+COMPUTING SOLUTION
+------------------
+ 
+sample    frequency  |  nbUnknowns    mem(GB)  Elapsed time     CPU time  solver  nbIter     normRes
+---------------------|------------------------------------------------------------------------------
+     1    6.000 GHz  |       31308      0.244    00:00:01.3   00:00:08.6   reuse                    
+     2    1.000 GHz  |       31308      0.246    00:00:02.5   00:00:09.5    Dm64                    
+     3    2.667 GHz  |       31308      0.247    00:00:00.7   00:00:05.4    Dm64                    
+     4    4.333 GHz  |       31308      0.248    00:00:00.7   00:00:05.1    Dm64                    
+     5    5.167 GHz  |       31308      0.248    00:00:01.5   00:00:05.8    Dm64                    
+     6    4.750 GHz  |       31308      0.249    00:00:00.9   00:00:05.3    Dm64                    
+     7    1.833 GHz  |       31308      0.249    00:00:01.2   00:00:05.9    Dm64                    
+     8    1.417 GHz  |       31308      0.249    00:00:01.3   00:00:05.5    Dm64                    
+     9    3.500 GHz  |       31308      0.249    00:00:01.4   00:00:05.5    Dm64                    
+    10    3.083 GHz  |       31308      0.249    00:00:01.2   00:00:05.5    Dm64                    
+    11    3.292 GHz  |       31308      0.249    00:00:00.9   00:00:05.1    Dm64                    
+    12    3.917 GHz  |       31308      0.249    00:00:01.1   00:00:05.5    Dm64                    
+    13    2.250 GHz  |       31308      0.249    00:00:01.0   00:00:04.3    Dm64                    
+    14    4.542 GHz  |       31308      0.249    00:00:01.0   00:00:04.6    Dm64                    
+    15    5.583 GHz  |       31308      0.249    00:00:01.6   00:00:05.2    Dm64                    
+------------------------------------------------
+DISTRIBUTION SUMMARY:
+master 0    on DESKTOP-Q0SP7E5 
+solver 1    on DESKTOP-Q0SP7E5:  #freq:14    
+------------------------------------------------
+------------------------------------------------
+  Total Elapsed Time = 0:00:45
+------------------------------------------------
+Simulation results can be reused

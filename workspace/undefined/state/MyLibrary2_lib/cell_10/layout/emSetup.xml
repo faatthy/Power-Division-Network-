@@ -1,0 +1,183 @@
+<EmSimSetup version="1.0">
+  <PortMain version="1.0">
+    <MomLayout version="1.0">
+      <workspaceText>undefined</workspaceText>
+      <libraryText>MyLibrary2_lib</libraryText>
+      <cellText>cell_10</cellText>
+      <viewText>layout</viewText>
+    </MomLayout>
+    <PortEditorDialog version="1.1">
+      <autoSelect>True</autoSelect>
+      <autoCenter>True</autoCenter>
+      <autoZoom>False</autoZoom>
+      <hideConnectedPins>False</hideConnectedPins>
+      <dataScope>0</dataScope>
+      <PinView version="1.1">
+        <isSnapshotForInfoOnly>True</isSnapshotForInfoOnly>
+        <Pins>
+          <Pin version="1.1">
+            <pinName>P1</pinName>
+            <netName>P1</netName>
+            <pinNum>1</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>1</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>-0.0140261:0.00075</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+          <Pin version="1.1">
+            <pinName>P2</pinName>
+            <netName>P2</netName>
+            <pinNum>2</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>1</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>0.0165493:0.0031022</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+          <Pin version="1.1">
+            <pinName>P3</pinName>
+            <netName>P3</netName>
+            <pinNum>3</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>1</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>0.0169517:-0.001663</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+          <Pin version="1.1">
+            <pinName>P6</pinName>
+            <netName>P6</netName>
+            <pinNum>4</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>1</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>0.004619:0.0016609</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+          <Pin version="1.1">
+            <pinName>P7</pinName>
+            <netName>P7</netName>
+            <pinNum>5</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>1</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>0.004619:-0.0002217</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+        </Pins>
+      </PinView>
+      <PortView version="1.2">
+        <portCalibrationTypeOverride></portCalibrationTypeOverride>
+        <isSnapshotForInfoOnly>True</isSnapshotForInfoOnly>
+        <Ports>
+          <Port version="1.3">
+            <portNum>1</portNum>
+            <portName>P1</portName>
+            <refImpedance>50:0</refImpedance>
+            <feedType>Auto</feedType>
+            <refoffset>0</refoffset>
+            <termType>2</termType>
+            <gndLayer></gndLayer>
+            <PlusPinNames>
+              <stdItem>P1</stdItem>
+            </PlusPinNames>
+            <MinusPinNames>
+              <stdItem>::__GND__</stdItem>
+            </MinusPinNames>
+          </Port>
+          <Port version="1.3">
+            <portNum>2</portNum>
+            <portName>P2</portName>
+            <refImpedance>50:0</refImpedance>
+            <feedType>Auto</feedType>
+            <refoffset>0</refoffset>
+            <termType>2</termType>
+            <gndLayer></gndLayer>
+            <PlusPinNames>
+              <stdItem>P2</stdItem>
+            </PlusPinNames>
+            <MinusPinNames>
+              <stdItem>::__GND__</stdItem>
+            </MinusPinNames>
+          </Port>
+          <Port version="1.3">
+            <portNum>3</portNum>
+            <portName>P3</portName>
+            <refImpedance>50:0</refImpedance>
+            <feedType>Auto</feedType>
+            <refoffset>0</refoffset>
+            <termType>2</termType>
+            <gndLayer></gndLayer>
+            <PlusPinNames>
+              <stdItem>P3</stdItem>
+            </PlusPinNames>
+            <MinusPinNames>
+              <stdItem>::__GND__</stdItem>
+            </MinusPinNames>
+          </Port>
+          <Port version="1.3">
+            <portNum>4</portNum>
+            <portName>P6</portName>
+            <refImpedance>100:0</refImpedance>
+            <feedType>Auto</feedType>
+            <refoffset>0</refoffset>
+            <termType>2</termType>
+            <gndLayer></gndLayer>
+            <PlusPinNames>
+              <stdItem>P6</stdItem>
+            </PlusPinNames>
+            <MinusPinNames>
+              <stdItem>P7</stdItem>
+            </MinusPinNames>
+          </Port>
+        </Ports>
+      </PortView>
+    </PortEditorDialog>
+  </PortMain>
+</EmSimSetup>

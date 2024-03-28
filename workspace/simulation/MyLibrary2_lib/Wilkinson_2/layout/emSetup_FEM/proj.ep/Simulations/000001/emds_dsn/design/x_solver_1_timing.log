@@ -1,0 +1,174 @@
+
+  1. setup                                          : etime=00:00:00.4    ctime=00:00:01.2    rss= 30.887 Mbyte     virtual= 20.238 Mbyte     
+     1. loading mesh                                : etime=00:00:00.1    ctime=00:00:00.1    rss= 29.023 Mbyte     virtual= 19.324 Mbyte     
+     2. setup of local problems for iwp             : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.023 Mbyte     virtual= 19.324 Mbyte     
+     3. loading circuit components                  : etime=00:00:00.1    ctime=00:00:00.0    rss= 29.023 Mbyte     virtual= 19.324 Mbyte     
+        1. reading current sources from calcbridge  : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.023 Mbyte     virtual= 19.324 Mbyte     
+        2. building current sources for waveguide ports: etime=00:00:00.0    ctime=00:00:00.0    rss= 29.023 Mbyte     virtual= 19.324 Mbyte     
+        3. connectivity check                       : etime=00:00:00.1    ctime=00:00:00.0    rss= 29.023 Mbyte     virtual= 19.324 Mbyte     
+           1. legacy FindImpedanceLinePaths [TO BE OBSOLETED]: etime=00:00:00.1    ctime=00:00:00.0    rss= 29.023 Mbyte     virtual= 19.324 Mbyte     
+     4. assigning unknowns                          : etime=00:00:00.0    ctime=00:00:00.2    rss= 29.023 Mbyte     virtual= 19.324 Mbyte     
+        1. LFenhance                                : etime=00:00:00.0    ctime=00:00:00.2    rss= 29.023 Mbyte     virtual= 19.324 Mbyte     
+     5. setup circuit components                    : etime=00:00:00.1    ctime=00:00:00.7    rss= 30.453 Mbyte     virtual= 20.035 Mbyte     
+        1. line paths + line integrals              : etime=00:00:00.1    ctime=00:00:00.7    rss= 30.434 Mbyte     virtual= 20.035 Mbyte     
+           1. node2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.1    rss= 29.023 Mbyte     virtual= 19.324 Mbyte     
+           2. edge2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.1    rss= 30.293 Mbyte     virtual= 20.035 Mbyte     
+        2. iwp                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.453 Mbyte     virtual= 20.035 Mbyte     
+
+  2. symbolic matrix setup                          : etime=00:00:00.2    ctime=00:00:01.2    rss= 52.563 Mbyte     virtual= 42.027 Mbyte     
+
+  3. iwp                                            : etime=00:00:00.0    ctime=00:00:00.0    rss= 52.563 Mbyte     virtual= 42.027 Mbyte     
+
+  4. Frequency 1 GHz                                : etime=00:00:01.0    ctime=00:00:06.1    rss=251.914 Mbyte     virtual=430.078 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:00.8    rss= 56.145 Mbyte     virtual= 45.867 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss= 54.586 Mbyte     virtual= 44.539 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.8    rss= 56.145 Mbyte     virtual= 45.867 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss= 56.145 Mbyte     virtual= 45.867 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss= 56.145 Mbyte     virtual= 45.867 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss= 56.145 Mbyte     virtual= 45.867 Mbyte     
+     4. solving linear system                       : etime=00:00:00.8    ctime=00:00:05.1    rss=251.707 Mbyte     virtual=430.078 Mbyte     
+        1. setup solver                             : etime=00:00:00.8    ctime=00:00:04.8    rss=249.613 Mbyte     virtual=428.184 Mbyte     
+        2. solve                                    : etime=00:00:00.0    ctime=00:00:00.3    rss=251.688 Mbyte     virtual=430.078 Mbyte     
+
+  5. Frequency 2.66667 GHz                          : etime=00:00:00.7    ctime=00:00:05.3    rss=252.734 Mbyte     virtual=430.938 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:01.8    rss=252.734 Mbyte     virtual=430.938 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=251.930 Mbyte     virtual=430.098 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:01.2    rss=252.734 Mbyte     virtual=430.938 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.5    rss=252.734 Mbyte     virtual=430.938 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=252.734 Mbyte     virtual=430.938 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=252.734 Mbyte     virtual=430.938 Mbyte     
+     4. solving linear system                       : etime=00:00:00.5    ctime=00:00:03.4    rss=252.734 Mbyte     virtual=430.938 Mbyte     
+        1. setup solver                             : etime=00:00:00.4    ctime=00:00:03.0    rss=252.734 Mbyte     virtual=430.938 Mbyte     
+        2. solve                                    : etime=00:00:00.1    ctime=00:00:00.4    rss=252.734 Mbyte     virtual=430.938 Mbyte     
+
+  6. Frequency 4.33333 GHz                          : etime=00:00:00.7    ctime=00:00:05.1    rss=253.516 Mbyte     virtual=432.164 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:01.7    rss=253.516 Mbyte     virtual=432.164 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=252.734 Mbyte     virtual=430.938 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:01.3    rss=253.516 Mbyte     virtual=432.164 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.5    rss=253.516 Mbyte     virtual=432.164 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=253.516 Mbyte     virtual=432.164 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=253.516 Mbyte     virtual=432.164 Mbyte     
+     4. solving linear system                       : etime=00:00:00.5    ctime=00:00:03.3    rss=253.516 Mbyte     virtual=432.164 Mbyte     
+        1. setup solver                             : etime=00:00:00.4    ctime=00:00:02.9    rss=253.516 Mbyte     virtual=432.164 Mbyte     
+        2. solve                                    : etime=00:00:00.1    ctime=00:00:00.4    rss=253.516 Mbyte     virtual=432.164 Mbyte     
+
+  7. Frequency 5.16667 GHz                          : etime=00:00:00.7    ctime=00:00:04.5    rss=254.230 Mbyte     virtual=432.953 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:00.9    rss=254.230 Mbyte     virtual=432.953 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=253.516 Mbyte     virtual=432.164 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.8    rss=254.230 Mbyte     virtual=432.953 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=254.230 Mbyte     virtual=432.953 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=254.230 Mbyte     virtual=432.953 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=254.230 Mbyte     virtual=432.953 Mbyte     
+     4. solving linear system                       : etime=00:00:00.5    ctime=00:00:03.6    rss=254.230 Mbyte     virtual=432.953 Mbyte     
+        1. setup solver                             : etime=00:00:00.4    ctime=00:00:03.2    rss=254.230 Mbyte     virtual=432.953 Mbyte     
+        2. solve                                    : etime=00:00:00.1    ctime=00:00:00.4    rss=254.230 Mbyte     virtual=432.953 Mbyte     
+
+  8. Frequency 4.75 GHz                             : etime=00:00:00.6    ctime=00:00:04.1    rss=254.723 Mbyte     virtual=433.402 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:00.9    rss=254.723 Mbyte     virtual=433.402 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=254.230 Mbyte     virtual=432.953 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.8    rss=254.723 Mbyte     virtual=433.402 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=254.723 Mbyte     virtual=433.402 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=254.723 Mbyte     virtual=433.402 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=254.723 Mbyte     virtual=433.402 Mbyte     
+     4. solving linear system                       : etime=00:00:00.4    ctime=00:00:03.1    rss=254.723 Mbyte     virtual=433.402 Mbyte     
+        1. setup solver                             : etime=00:00:00.4    ctime=00:00:02.8    rss=254.723 Mbyte     virtual=433.402 Mbyte     
+        2. solve                                    : etime=00:00:00.1    ctime=00:00:00.3    rss=254.723 Mbyte     virtual=433.402 Mbyte     
+
+  9. Frequency 1.83333 GHz                          : etime=00:00:00.6    ctime=00:00:04.1    rss=254.723 Mbyte     virtual=433.504 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:00.9    rss=254.723 Mbyte     virtual=433.504 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=254.723 Mbyte     virtual=433.402 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.8    rss=254.723 Mbyte     virtual=433.504 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=254.723 Mbyte     virtual=433.504 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=254.723 Mbyte     virtual=433.504 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=254.723 Mbyte     virtual=433.504 Mbyte     
+     4. solving linear system                       : etime=00:00:00.4    ctime=00:00:03.1    rss=254.723 Mbyte     virtual=433.504 Mbyte     
+        1. setup solver                             : etime=00:00:00.4    ctime=00:00:02.7    rss=254.723 Mbyte     virtual=433.504 Mbyte     
+        2. solve                                    : etime=00:00:00.0    ctime=00:00:00.4    rss=254.723 Mbyte     virtual=433.504 Mbyte     
+
+ 10. Frequency 1.41667 GHz                          : etime=00:00:00.8    ctime=00:00:04.4    rss=254.875 Mbyte     virtual=433.625 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:01.0    rss=254.875 Mbyte     virtual=433.625 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=254.723 Mbyte     virtual=433.504 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.9    rss=254.875 Mbyte     virtual=433.625 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=254.875 Mbyte     virtual=433.625 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=254.875 Mbyte     virtual=433.625 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=254.875 Mbyte     virtual=433.625 Mbyte     
+     4. solving linear system                       : etime=00:00:00.5    ctime=00:00:03.4    rss=254.875 Mbyte     virtual=433.625 Mbyte     
+        1. setup solver                             : etime=00:00:00.5    ctime=00:00:03.0    rss=254.875 Mbyte     virtual=433.625 Mbyte     
+        2. solve                                    : etime=00:00:00.1    ctime=00:00:00.4    rss=254.875 Mbyte     virtual=433.625 Mbyte     
+
+ 11. Frequency 3.5 GHz                              : etime=00:00:00.6    ctime=00:00:03.7    rss=254.875 Mbyte     virtual=433.738 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:00.9    rss=254.875 Mbyte     virtual=433.738 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=254.875 Mbyte     virtual=433.625 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.8    rss=254.875 Mbyte     virtual=433.738 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=254.875 Mbyte     virtual=433.738 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=254.875 Mbyte     virtual=433.738 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=254.875 Mbyte     virtual=433.738 Mbyte     
+     4. solving linear system                       : etime=00:00:00.4    ctime=00:00:02.7    rss=254.875 Mbyte     virtual=433.738 Mbyte     
+        1. setup solver                             : etime=00:00:00.3    ctime=00:00:02.4    rss=254.875 Mbyte     virtual=433.738 Mbyte     
+        2. solve                                    : etime=00:00:00.0    ctime=00:00:00.3    rss=254.875 Mbyte     virtual=433.738 Mbyte     
+
+ 12. Frequency 3.08333 GHz                          : etime=00:00:00.7    ctime=00:00:04.3    rss=254.938 Mbyte     virtual=433.762 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.3    ctime=00:00:01.1    rss=254.938 Mbyte     virtual=433.762 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=254.875 Mbyte     virtual=433.738 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:01.0    rss=254.938 Mbyte     virtual=433.762 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=254.938 Mbyte     virtual=433.762 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=254.938 Mbyte     virtual=433.762 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=254.938 Mbyte     virtual=433.762 Mbyte     
+     4. solving linear system                       : etime=00:00:00.4    ctime=00:00:03.2    rss=254.938 Mbyte     virtual=433.762 Mbyte     
+        1. setup solver                             : etime=00:00:00.4    ctime=00:00:02.7    rss=254.938 Mbyte     virtual=433.762 Mbyte     
+        2. solve                                    : etime=00:00:00.1    ctime=00:00:00.4    rss=254.938 Mbyte     virtual=433.762 Mbyte     
+
+ 13. Frequency 3.29167 GHz                          : etime=00:00:00.6    ctime=00:00:04.0    rss=254.984 Mbyte     virtual=433.762 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:01.0    rss=254.984 Mbyte     virtual=433.762 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=254.938 Mbyte     virtual=433.762 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.9    rss=254.984 Mbyte     virtual=433.762 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=254.984 Mbyte     virtual=433.762 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=254.984 Mbyte     virtual=433.762 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=254.984 Mbyte     virtual=433.762 Mbyte     
+     4. solving linear system                       : etime=00:00:00.4    ctime=00:00:03.0    rss=254.984 Mbyte     virtual=433.762 Mbyte     
+        1. setup solver                             : etime=00:00:00.3    ctime=00:00:02.5    rss=254.984 Mbyte     virtual=433.762 Mbyte     
+        2. solve                                    : etime=00:00:00.1    ctime=00:00:00.4    rss=254.984 Mbyte     virtual=433.762 Mbyte     
+
+ 14. Frequency 3.91667 GHz                          : etime=00:00:00.6    ctime=00:00:03.8    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:00.9    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=254.984 Mbyte     virtual=433.762 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.8    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+     4. solving linear system                       : etime=00:00:00.4    ctime=00:00:02.8    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+        1. setup solver                             : etime=00:00:00.3    ctime=00:00:02.5    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+        2. solve                                    : etime=00:00:00.1    ctime=00:00:00.3    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+
+ 15. Frequency 2.25 GHz                             : etime=00:00:00.5    ctime=00:00:03.0    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:00.9    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.8    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+     4. solving linear system                       : etime=00:00:00.3    ctime=00:00:02.1    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+        1. setup solver                             : etime=00:00:00.2    ctime=00:00:01.8    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+        2. solve                                    : etime=00:00:00.0    ctime=00:00:00.3    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+
+ 16. Frequency 4.54167 GHz                          : etime=00:00:00.5    ctime=00:00:03.2    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:00.9    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=255.199 Mbyte     virtual=433.855 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.8    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+     4. solving linear system                       : etime=00:00:00.3    ctime=00:00:02.3    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+        1. setup solver                             : etime=00:00:00.3    ctime=00:00:02.0    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+        2. solve                                    : etime=00:00:00.0    ctime=00:00:00.3    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+
+ 17. Frequency 5.58333 GHz                          : etime=00:00:00.6    ctime=00:00:03.9    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+     1. constructing matrix                         : etime=00:00:00.2    ctime=00:00:00.8    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+        1. 1d                                       : etime=00:00:00.0    ctime=00:00:00.0    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+        2. 3d                                       : etime=00:00:00.1    ctime=00:00:00.8    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+        3. 2d                                       : etime=00:00:00.1    ctime=00:00:00.1    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+     2. constructing excitation                     : etime=00:00:00.0    ctime=00:00:00.0    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+     3. enter solve                                 : etime=00:00:00.0    ctime=00:00:00.0    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+     4. solving linear system                       : etime=00:00:00.4    ctime=00:00:03.0    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+        1. setup solver                             : etime=00:00:00.3    ctime=00:00:02.7    rss=255.426 Mbyte     virtual=434.441 Mbyte     
+        2. solve                                    : etime=00:00:00.0    ctime=00:00:00.3    rss=255.426 Mbyte     virtual=434.441 Mbyte     

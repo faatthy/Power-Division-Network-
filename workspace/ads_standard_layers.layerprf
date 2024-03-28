@@ -1,0 +1,5 @@
+<!DOCTYPE DisplayAttributes>
+<Lpp_Differences_List>
+    <LPP purpose="drawing" protect="1" layer="case_dimensions"/>
+    <LPP purpose="drawing" protect="1" visible="0" layer="silk_screen"/>
+</Lpp_Differences_List>

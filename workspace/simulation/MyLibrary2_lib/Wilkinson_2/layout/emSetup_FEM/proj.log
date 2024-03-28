@@ -1,0 +1,89 @@
+Momentum MomEngine_64 2020.00.283 (*) built: Jul 17 2019
+Copyright  1992 - 2019 Keysight Technologies
+Geometry processing started on: Mon May  8 10:09:54 2023
+Using the minimal snap distance of 0.0004 mm
+(4 layout resolution points) for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Layout healing changed the layout. The actual
+highest aggregate snap distance was 0.0002 mm.
+Further details have been written to the DRC
+report.
+
+-------------------------------------------------------------------------------
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+Geometry processing finished on: Mon May  8 10:09:54 2023
+Starting FEM simulation.
+Setting environment for using simulator engine
+Setting EMPROHOME to C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\
+Setting PYTHONHOME to C:\Program Files\Keysight\ADS2020\fem\2020.00\win32_64\bin\tools\win32\python
+License checkout started
+License checkout completed
+License checkout started
+License checkout completed
+CONFIGURATION VARIABLES WITH NON-DEFAULT VALUES:
+                                        Actual             Default
+  
+  
+FEM engine                : 370.000 2019-07-17
+FEM solver                : 1.2.0
+AFS                       : 3.1.1
+Machine                   : DESKTOP-Q0SP7E5
+Maximum number of threads : Automatic
+Maximum number of solvers : 1
+Date                      : Mon May  8 10:11:04 2023
+Design                    : C:\microwave\MyWorkspace2_wrk\simulation\MyLibrary2_lib\Wilkinson_2\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design
+FEM Mesher: 2.0.3
+    
+Automatic initial target mesh size: 1.67e+01 mm
+   
+ 
+INITIAL MESH
+------------
+ 
+nbPoints     : 705
+nbTetrahedra : 3512
+  
+REFINING
+--------
+                     |              MESHING                |                           SOLVING
+ level    frequency  |  nbTetr  Elapsed time    CPU time   |  nbUnknowns   mem(GB)   Elapsed time    CPU time  Delta(S)             solver  nbIter     normRes            
+---------------------|-------------------------------------|--------------------------------------------------------------------------------------------------
+     1    6.000 GHz  |    3512    00:00:01.0  00:00:00.8   |       23088     0.194     00:00:01.3  00:00:06.4         /               Dm64                                
+     2    6.000 GHz  |    4107    00:00:00.5  00:00:00.5   |       27040     0.220     00:00:01.4  00:00:08.3    0.0294 [->0.0200]    Dm64                                
+     3    6.000 GHz  |    4771    00:00:00.4  00:00:00.4   |       31308     0.244     00:00:01.3  00:00:08.6    0.0374 [->0.0200]    Dm64                                
+     4    6.000 GHz  |    5601    00:00:00.4  00:00:00.4   |       36682     0.279     00:00:01.9  00:00:12.7    0.0135 [->0.0200]    Dm64                                
+ 
+COMPUTING SOLUTION
+------------------
+ 
+sample    frequency  |  nbUnknowns    mem(GB)  Elapsed time     CPU time  solver  nbIter     normRes
+---------------------|------------------------------------------------------------------------------
+     1    6.000 GHz  |       31308      0.244    00:00:01.3   00:00:08.6   reuse                    
+     2    1.000 GHz  |       31308      0.246    00:00:02.5   00:00:09.5    Dm64                    
+     3    2.667 GHz  |       31308      0.247    00:00:00.7   00:00:05.4    Dm64                    
+     4    4.333 GHz  |       31308      0.248    00:00:00.7   00:00:05.1    Dm64                    
+     5    5.167 GHz  |       31308      0.248    00:00:01.5   00:00:05.8    Dm64                    
+     6    4.750 GHz  |       31308      0.249    00:00:00.9   00:00:05.3    Dm64                    
+     7    1.833 GHz  |       31308      0.249    00:00:01.2   00:00:05.9    Dm64                    
+     8    1.417 GHz  |       31308      0.249    00:00:01.3   00:00:05.5    Dm64                    
+     9    3.500 GHz  |       31308      0.249    00:00:01.4   00:00:05.5    Dm64                    
+    10    3.083 GHz  |       31308      0.249    00:00:01.2   00:00:05.5    Dm64                    
+    11    3.292 GHz  |       31308      0.249    00:00:00.9   00:00:05.1    Dm64                    
+    12    3.917 GHz  |       31308      0.249    00:00:01.1   00:00:05.5    Dm64                    
+    13    2.250 GHz  |       31308      0.249    00:00:01.0   00:00:04.3    Dm64                    
+    14    4.542 GHz  |       31308      0.249    00:00:01.0   00:00:04.6    Dm64                    
+    15    5.583 GHz  |       31308      0.249    00:00:01.6   00:00:05.2    Dm64                    
+------------------------------------------------
+DISTRIBUTION SUMMARY:
+master 0    on DESKTOP-Q0SP7E5 
+solver 1    on DESKTOP-Q0SP7E5:  #freq:14    
+------------------------------------------------
+------------------------------------------------
+  Total Elapsed Time = 0:00:45
+------------------------------------------------
+Simulation results can be reused
+The simulation results have been saved in dataset "Wilkinson_2_FEM".
